@@ -1,11 +1,11 @@
-Lavan+="\n✨@themert Ozel Bot✨"
+Lavan+="\n✨@themertxp Ozel Bot✨"
 MESAJ="\n📱Mert UserBot Installer Android Setup📱"
 MESAJ+="\nBizi Tercih Ettiğiniz İçin Teşekkür Ederiz"
 MESAJ+="\nİmmortal project born out hoppeles love"
 MESAJ+="\n "
 MESAJ+="\n MertUserBot Projects / themertxp"
 MESAJ+="\n📣 UPDATE ANNOUNCEMENT; @themertxp"
-MESAJ+="\n🆘 HELP GROUP; @LavanderSupport"
+MESAJ+="\n🆘 HELP GROUP; @themertxp"
 MESAJ+="\n🧩 PLUGIN SHARE; @themertxp"
 MESAJ+="\n "
 MESAJ+="\n"
@@ -43,7 +43,7 @@ echo -e $MESAJ
 echo -e $BOSLUK
 echo "⌛ I DOWNLOAD FİLES ⌛"
 echo -e $BOSLUK
-git clone https://github.com/LavanderProjects/Lavanstaxinstaller
+git clone https://github.com/SrTheMert/Installer
 clear
 echo -e $Lavan
 echo -e $BOSLUK
