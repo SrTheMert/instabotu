@@ -43,7 +43,7 @@ echo -e $MESAJ
 echo -e $BOSLUK
 echo "⌛ I DOWNLOAD FİLES ⌛"
 echo -e $BOSLUK
-git clone https://github.com/SrTheMert/installer
+git clone https://github.com/SrTheMert/instabotuinstaller
 clear
 echo -e $Lavan
 echo -e $BOSLUK
