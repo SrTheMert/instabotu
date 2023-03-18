@@ -1,0 +1,57 @@
+Lavan+="\n✨@themertxp Ozel Bot✨"
+MESAJ="\n📱Mert UserBot Installer Android Setup📱"
+MESAJ+="\nBizi Tercih Ettiğiniz İçin Teşekkür Ederiz"
+MESAJ+="\nİmmortal project born out hoppeles love"
+MESAJ+="\n "
+MESAJ+="\n MertUserBot Projects / themertxp"
+MESAJ+="\n📣 UPDATE ANNOUNCEMENT; @themertxp"
+MESAJ+="\n🆘 HELP GROUP; @themertxp"
+MESAJ+="\n🧩 PLUGIN SHARE; @themertxp"
+MESAJ+="\n "
+MESAJ+="\n"
+YARDIM="\n"
+YARDIM+="\n "
+BOSLUK="\n "
+clear
+echo -e $Lavan
+echo -e $YARDIM
+echo -e $BOSLUK
+echo "⏳ I UPDATE YOUR REQUIREMENTS ⏳"
+echo -e $BOSLUK
+pkg update -y
+apt update
+clear
+echo -e $Lavan
+echo -e $BOSLUK
+echo -e $MESAJ
+echo -e $BOSLUK
+echo "⌛ NODE & PYTHON IS INSTALLED ON YOUR DEVICE ⌛"
+echo -e $BOSLUK
+apt install nodejs --fix-missing
+pkg install python -y
+pip install --upgrade pip
+clear
+echo -e $Lavan
+echo -e $MESAJ
+echo -e $BOSLUK
+echo "⌛ INSTALLING GIT ⌛"
+echo -e $BOSLUK
+pkg install git -y
+clear
+echo -e $Lavan
+echo -e $MESAJ
+echo -e $BOSLUK
+echo "⌛ I DOWNLOAD FİLES ⌛"
+echo -e $BOSLUK
+git clone https://github.com/SrTheMert/Installer
+clear
+echo -e $Lavan
+echo -e $BOSLUK
+echo -e $MESAJ
+echo -e $BOSLUK
+echo "⌛ INSTALLING REQUIREMENTS..."
+echo -e $BOSLUK
+cd Lavanstaxinstaller
+pip install -r requirements.txt
+npm install
+python -m lavan_installer
